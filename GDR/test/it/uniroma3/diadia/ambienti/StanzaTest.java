@@ -25,6 +25,11 @@ public class StanzaTest {
 	public void testGetStanzaAdiacente() {
 		assertEquals(camera, bagno.getStanzaAdiacente("sud"));
 	}
+	
+	@Test
+	public void testGetStanzaAdiacenteNonEsistente() {
+		assertEquals(null, bagno.getStanzaAdiacente("est"));
+	}
 
 	@Test
 	public void testGetDirezioni() {

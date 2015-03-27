@@ -7,26 +7,26 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class AttrezzoTest {
-	private Attrezzo attrezzoIniziale;
+	private Attrezzo attrezzo;
 
 	@Before
 	public void setUp() {
-		attrezzoIniziale = new Attrezzo("arco", 8);
+		attrezzo = new Attrezzo("arco", 8);
 	}
 
 	@Test
 	public void testGetNome() {
-		assertEquals("arco", attrezzoIniziale.getNome());
+		assertEquals("arco", attrezzo.getNome());
 	}
 
 	@Test
 	public void testGetPeso() {
-		assertEquals(8, attrezzoIniziale.getPeso());
+		assertEquals(8, attrezzo.getPeso());
 	}
 
 	@Test
 	public void testToString() {
-		assertEquals("arco (8kg)", attrezzoIniziale.toString());
+		assertEquals("arco (8kg)", attrezzo.toString());
 	}
 
 }
