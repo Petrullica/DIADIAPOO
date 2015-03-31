@@ -14,7 +14,6 @@ import java.util.Scanner;
  *
  * @author  Paolo Merialdo (da un'idea di Michael Kolling and David J. Barnes) *
  * @version 0.1
- * quindi
  */
 
 public class DiaDia {
