@@ -13,7 +13,6 @@ import java.util.Scanner;
  * @author  Paolo Merialdo (da un'idea di Michael Kolling and David J. Barnes) *
  * @version 0.1
  */
-//forse ci siamo riusciti
 
 public class Comando {
 	private String nome;
