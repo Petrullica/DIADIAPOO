@@ -14,6 +14,7 @@ import java.util.Scanner;
  *
  * @author  Paolo Merialdo (da un'idea di Michael Kolling and David J. Barnes) *
  * @version 0.1
+ * quindi
  */
 
 public class DiaDia {
@@ -88,6 +89,7 @@ public class DiaDia {
 	 * Cerca di andare in una direzione. Se c'e' una stanza ci entra 
 	 * e ne stampa il nome, altrimenti stampa un messaggio di errore
 	 */
+	
 	private void vai(String direzione) {
 		if(direzione==null)
 			System.out.println("Dove vuoi andare ?");
